@@ -52,19 +52,19 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-int ReadInt(string msg)
-{
-    System.Console.Write(msg);
-    return Convert.ToInt32(Console.ReadLine());
-}
+// int ReadInt(string msg)
+// {
+//     System.Console.Write(msg);
+//     return Convert.ToInt32(Console.ReadLine());
+// }
 
-void NumberPow(int number)
-{
-  for (int i = 1; i <= number; i++)
-  {
-    System.Console.Write(Math.Pow(i, 3) + " ");
-  }
-}
+// void NumberPow(int number)
+// {
+//   for (int i = 1; i <= number; i++)
+//   {
+//     System.Console.Write(Math.Pow(i, 3) + " ");
+//   }
+// }
 
-int N = ReadInt("Введите число: ");
-NumberPow(N);
+// int N = ReadInt("Введите число: ");
+// NumberPow(N);
