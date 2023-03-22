@@ -62,6 +62,7 @@
 //         Console.Write($"{arr[i]} ");
 //     }
 //     Console.WriteLine();
+//     //Console.WriteLine($"[{String.Join(",", arr)}]");  //Вывод элементов массива в квадратных скобках
 // }
 
 // FillArray(array);
