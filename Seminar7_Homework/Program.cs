@@ -56,8 +56,7 @@
 
 // bool Validate(int str, int col, int[,] arr)
 // {
-//     if (str <= arr.GetLength(0) && col <= arr.GetLength(1) && str > 0 && col > 0) return true;
-//     else return false;
+//     return (str <= arr.GetLength(0) && col <= arr.GetLength(1) && str > 0 && col > 0);
 // }
 
 // PrintArray(array);
