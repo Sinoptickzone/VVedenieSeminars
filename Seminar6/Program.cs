@@ -113,20 +113,20 @@
 
 // -------------------------------Общие методы-------------------------------------------
 
-int[] GetRandomArray(int size, int minValue, int maxValue)
-{
-    int[] result = new int[size];
+// int[] GetRandomArray(int size, int minValue, int maxValue)
+// {
+//     int[] result = new int[size];
 
-    for (int i = 0; i < size; i++)
-    {
-        result[i] = new Random().Next(minValue, maxValue + 1);
-    }
-    return result;
-}
+//     for (int i = 0; i < size; i++)
+//     {
+//         result[i] = new Random().Next(minValue, maxValue + 1);
+//     }
+//     return result;
+// }
 
-int ReadVariable(string message)
-{
-    Console.Write(message);
-    int var = int.Parse(Console.ReadLine()!);
-    return var;
-}
+// int ReadVariable(string message)
+// {
+//     Console.Write(message);
+//     int var = int.Parse(Console.ReadLine()!);
+//     return var;
+// }

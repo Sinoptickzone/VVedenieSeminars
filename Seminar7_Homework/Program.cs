@@ -99,35 +99,35 @@
 
 // -------------------------------Общие методы-------------------------------------------
 
-int ReadVariable(string message)
-{
-    Console.Write(message);
-    int var = int.Parse(Console.ReadLine()!);
-    return var;
-}
+// int ReadVariable(string message)
+// {
+//     Console.Write(message);
+//     int var = int.Parse(Console.ReadLine()!);
+//     return var;
+// }
 
-int[,] GetArray(int rows, int columns, int minValue, int maxValue)
-{
-    int[,] res = new int[rows, columns];
+// int[,] GetArray(int rows, int columns, int minValue, int maxValue)
+// {
+//     int[,] res = new int[rows, columns];
 
-    for (int i = 0; i < rows; i++)
-    {
-        for (int j = 0; j < columns; j++)
-        {
-            res[i, j] = new Random().Next(minValue, maxValue + 1);
-        }
-    }
-    return res;
-}
+//     for (int i = 0; i < rows; i++)
+//     {
+//         for (int j = 0; j < columns; j++)
+//         {
+//             res[i, j] = new Random().Next(minValue, maxValue + 1);
+//         }
+//     }
+//     return res;
+// }
 
-void PrintArray(int[,] array)
-{
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            Console.Write($"{array[i, j]} ");
-        }
-        Console.WriteLine();
-    }
-}
+// void PrintArray(int[,] array)
+// {
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < array.GetLength(1); j++)
+//         {
+//             Console.Write($"{array[i, j]} ");
+//         }
+//         Console.WriteLine();
+//     }
+// }
