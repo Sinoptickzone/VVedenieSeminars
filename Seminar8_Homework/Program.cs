@@ -162,13 +162,13 @@
 // int[,,] GetThreeDimensionArray(int rows, int columns, int depth, int minValue, int maxValue)
 // {
 //     int[,,] res = new int[rows, columns, depth];
-
+//       int numb = 10;
 //     for (int i = 0; i < rows; i++)
 //     {
 //         for (int j = 0; j < columns; j++)
 //         {
 //             for (int k = 0; k < depth; k++)
-//                 res[i, j, k] = new Random().Next(minValue, maxValue + 1);
+//                 res[i, j, k] = numb ++;
 //         }
 //     }
 //     return res;
